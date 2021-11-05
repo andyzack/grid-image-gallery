@@ -1,6 +1,6 @@
 <template>
   <div id="nav" class="bg-white">
-    <router-link :to="{ name: 'EventList' }">Events</router-link> |
+    <router-link :to="{ name: 'GalleryList' }">Gallery</router-link> |
     <router-link :to="{ name: 'About' }">About</router-link>
   </div>
   <router-view />
