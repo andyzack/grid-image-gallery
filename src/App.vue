@@ -1,5 +1,5 @@
 <template>
-  <div id="nav" class="bg-white">
+  <div id="nav" class="bg-white hidden">
     <router-link :to="{ name: 'GalleryList' }">Gallery</router-link> |
     <router-link :to="{ name: 'About' }">About</router-link>
   </div>

@@ -16,4 +16,10 @@ export default {
   getPhoto(id) {
     return apiClient.get('/photos/' + id)
   },
+  getPhotoNext(id) {
+    return apiClient.get('/photos/' + (id + 1))
+  },
+  getPhotoPrev(id) {
+    return apiClient.get('/photos/' + (id - 1))
+  },
 }

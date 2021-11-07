@@ -1,3 +1,4 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/grid-image-gallery/" : "/",
-};
+  publicPath:
+    process.env.NODE_ENV === 'production' ? '/grid-image-gallery/' : '/',
+}
