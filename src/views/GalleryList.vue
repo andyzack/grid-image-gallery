@@ -3,13 +3,13 @@
     <h1 class="text-2xl font-bold my-10">Nature Photo Gallery</h1>
     <div
       class="
-        grid grid-cols-4 grid-rows-1
+        c-gallery__grid
+        grid grid-cols-1 grid-rows-1
+        gap-4
         md:grid-cols-2
         lg:grid-cols-3
         xl:grid-cols-4
-        gap-4
         grid-flow-row-dense
-        c-gallery__grid
       "
     >
       <GalleryCard v-for="photo in photos" :key="photo.id" :photo="photo" />
