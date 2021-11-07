@@ -1,10 +1,10 @@
 <template>
-  <div class="c-gallery p-10 mx-auto max-w-6xl">
-    <h1 class="text-2xl font-bold my-10">Nature Photo Gallery</h1>
+  <div class="c-gallery p-4 md:p-10 mx-auto max-w-6xl">
+    <h1 class="text-2xl font-bold my-4 md:my-10">Nature Photo Gallery</h1>
     <div
       class="
         c-gallery__grid
-        grid grid-cols-1 grid-rows-1
+        grid
         gap-4
         md:grid-cols-2
         lg:grid-cols-3

@@ -2,33 +2,22 @@
   <div
     class="
       c-about
-      p-10
+      p-4
+      md:p-10
       mt-10
       border-gray-300 border-2
       max-w-lg
-      mx-auto
+      mx-4
+      md:mx-auto
       bg-white bg-opacity-25
     "
   >
-    <h1 class="text-2xl font-bold my-10">Nature</h1>
+    <h1 class="text-2xl font-bold my-4 md:my-10">Nature</h1>
     <p>
       Let’s celebrate the magic of Mother Earth — with images of everything our
       planet has to offer, from stunning seascapes, starry skies, and everything
       in between.
     </p>
-
-    <div class="container">
-      <div class="items">1</div>
-      <div class="items">2</div>
-      <div class="items">3</div>
-      <div class="items">4</div>
-      <div class="items">5</div>
-      <div class="items">6</div>
-      <div class="items">7</div>
-      <div class="items">8</div>
-      <div class="items">9</div>
-      <div class="items">10</div>
-    </div>
   </div>
 </template>
 

@@ -56,11 +56,13 @@ export default {
   created() {
     const items = [1, 3, 12, 13]
 
-    items.filter((item) => {
-      if (item == this.photo.id) {
-        this.masonary = 'row-span-2 col-span-2 c-gallery__double-height'
-      }
-    })
+    if (window.matchMedia('(min-width: 600px)').matches) {
+      items.filter((item) => {
+        if (item == this.photo.id) {
+          this.masonary = 'row-span-2 col-span-2 c-gallery__double-height'
+        }
+      })
+    }
   },
 }
 </script>

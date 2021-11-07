@@ -3,16 +3,17 @@
     v-if="photo"
     class="
       c-photo-card
-      p-10
+      p-4
+      md:p-10
       mt-10
       border-gray-300 border-2
       max-w-lg
-      mx-auto
+      mx-4
+      md:mx-auto
       bg-white bg-opacity-25
-      text-gray-700
     "
   >
-    <h1 class="font-bold text-lg pb-2">{{ photo.title }}</h1>
+    <h1 class="text-2xl font-bold my-4 md:my-10">{{ photo.title }}</h1>
     <p>{{ photo.time }} on {{ photo.date }} @ {{ photo.location }}</p>
     <p>{{ photo.description }}</p>
 
